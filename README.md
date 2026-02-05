@@ -1,12 +1,11 @@
 # Waveshare 0.49" OLED Module Driver
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB)](https://www.python.org/)
 [![AI Assisted](https://img.shields.io/badge/AI%20Assisted-95%25-blueviolet)](https://claude.ai)
 [![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-3B%2B%20%2F%204B-C51A4A)](https://www.raspberrypi.com/)
 [![Debian](https://img.shields.io/badge/Debian-12%20Bookworm-A81D33)](https://www.debian.org/)
 [![Debian](https://img.shields.io/badge/Debian-13%20Trixie-A81D33)](https://www.debian.org/)
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB)](https://www.python.org/)
 
 Python driver for the [Waveshare 0.49inch OLED Module](https://www.waveshare.com/wiki/0.49inch_OLED_Module) with SSD1315 controller, designed for Raspberry Pi.
 
