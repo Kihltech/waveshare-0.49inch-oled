@@ -2,6 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![AI Assisted](https://img.shields.io/badge/AI%20Assisted-95%25-blueviolet)](https://claude.ai)
+[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-3B%2B%20%2F%204B-C51A4A)](https://www.raspberrypi.com/)
+[![Debian](https://img.shields.io/badge/Debian-12%20Bookworm-A81D33)](https://www.debian.org/)
+[![Debian](https://img.shields.io/badge/Debian-13%20Trixie-A81D33)](https://www.debian.org/)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB)](https://www.python.org/)
 
 Python driver for the [Waveshare 0.49inch OLED Module](https://www.waveshare.com/wiki/0.49inch_OLED_Module) with SSD1315 controller, designed for Raspberry Pi.
 
@@ -35,10 +40,10 @@ Connect the OLED module to your Raspberry Pi:
 
 | OLED Pin | RPi Pin | RPi Function |
 |----------|---------|--------------|
-| VCC | Pin 1 | 3.3V |
-| GND | Pin 6 | Ground |
-| SCL | Pin 5 | GPIO 3 (I2C1 SCL) |
-| SDA | Pin 3 | GPIO 2 (I2C1 SDA) |
+| VCC (red) | Pin 1 | 3.3V |
+| SDA (green) | Pin 3 | GPIO 2 (I2C1 SDA) |
+| SCL (yellow) | Pin 5 | GPIO 3 (I2C1 SCL) |
+| GND (black) | Pin 6 | Ground |
 
 ## Installation
 
@@ -209,6 +214,7 @@ sudo usermod -aG i2c $USER
 
 ## References
 
+- [Waveshare 0.49" OLED module](https://www.waveshare.com/0.49inch-oled-module.htm)
 - [Waveshare Wiki](https://www.waveshare.com/wiki/0.49inch_OLED_Module)
 - [SSD1315 Datasheet](https://cursedhardware.github.io/epd-driver-ic/SSD1315.pdf)
 - [luma.oled Documentation](https://luma-oled.readthedocs.io/)
