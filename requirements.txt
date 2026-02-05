@@ -1,0 +1,10 @@
+# Waveshare 0.49" OLED Module Dependencies
+
+# Core I2C communication
+smbus2>=0.4.0
+
+# Image handling
+Pillow>=9.0.0
+
+# OLED display library (recommended)
+luma.oled>=3.13.0
